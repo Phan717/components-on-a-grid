@@ -18,6 +18,11 @@ nav > ul {
   justify-content: flex-end;
 }
 
+ul>li {
+  width: auto;
+  padding: 1rem;
+}
+
 img {
   width: 100%;
 }
