@@ -1,11 +1,21 @@
 html {
   box-sizing: border-box;
+  background-color: f2f1ed;
+  font-family: Georgia;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 1rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 img {
@@ -16,7 +26,7 @@ body {
   margin: 0;
 }
 
-main {
+/*main {
   display: grid;
   grid-template-columns: 20rem 1fr;
 }
