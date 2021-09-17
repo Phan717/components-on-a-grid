@@ -12,6 +12,15 @@ img {
   width: 100%;
 }
 
+body {
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+}
+
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
