@@ -12,15 +12,23 @@ html {
 
 nav > ul {
   margin: 0;
-  padding: 1rem;
+  padding: 0rem;
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
-ul>li {
-  width: auto;
-  padding: 1rem;
+
+nav li {
+  margin: 0 .5em;
+}
+
+ul > li {
+  /*width: auto;
+  padding: 0rem;
+  margin: 0 .5em;*/
+  position: relative;
+  left: 120px;
 }
 
 img {
@@ -38,5 +46,4 @@ body {
 
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
-  display: contents;
 }
