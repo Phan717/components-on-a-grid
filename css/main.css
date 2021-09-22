@@ -15,25 +15,8 @@ img {
 }
 
 body {
-  margin: 0;
-}
-
-@media only screen and (min-width: 500px)
-{
-  main figure
-  {
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-
-}
-
-h1 {
-  padding:1em;
-  background-color: red;
-  position: absolute;
-  text-align: center;
+  margin:0
+  padding: 1rem;
 }
 
 nav > ul {
@@ -43,10 +26,8 @@ nav > ul {
   width: 100%;
   list-style-type: none;
   display: flex;
-  text-align: right;
   margin: 1rem;
   grid-gap: 1rem;
-
 }
 
 
