@@ -10,24 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  padding-right: 1rem;
-}
-
-nav > ul {
-  margin: 0;
-  padding: 0rem;
-  list-style-type: none;
-}
-
-li {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  margin: 1rem;
-}
-
 img {
   width: 100%;
 }
@@ -35,6 +17,40 @@ img {
 body {
   margin: 0;
 }
+
+@media only screen and (min-width: 500px)
+{
+  main figure
+  {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+}
+
+h1 {
+  padding:1em;
+  background-color: red;
+  position: absolute;
+  text-align: center;
+}
+
+nav > ul {
+  background-color: green;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  text-align: right;
+  margin: 1rem;
+  grid-gap: 1rem;
+
+}
+
+
+
 
 /*main {
   display: grid;
