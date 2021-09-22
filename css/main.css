@@ -28,15 +28,21 @@ header {
   display: contents;
 }
 
+.pano {
+  grid-area: banner;
+}
+
 nav > ul {
-  background-color: green;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  list-style-type: none;
   display: flex;
+  list-style: none;
+  justify-content: end;
   margin: 1rem;
   grid-gap: 1rem;
+}
+
+nav {
+  grid-column: 2/ -1;
+  grid-row: 1;
 }
 
 
