@@ -53,7 +53,7 @@ header {
 }
 
 nav > ul {
-  /* position: absolute;*/
+  position: absolute;
   display: flex;
   list-style: none;
   justify-content: end;
