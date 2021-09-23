@@ -14,7 +14,7 @@ html {
 
 img {
   width: 100%;
-  /*display: block;*/
+  display: block;
 }
 
 body {
@@ -46,6 +46,9 @@ header {
 .pano {
   grid-area: banner;
   padding: 1rem;
+  grid-area: header;
+  grid-column: 1/ -1;
+  grid-row: 1/ 3;
 }
 
 nav > ul {
