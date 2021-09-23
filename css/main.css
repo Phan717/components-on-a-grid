@@ -84,6 +84,5 @@ p {
 }
 
 figure {
-  justify-content: space-between;
   flex-direction: row;
 } */
