@@ -26,6 +26,8 @@ body {
 
 header {
   display: contents;
+  color: #fff;
+  padding: 1rem;
 }
 
 .pano {
