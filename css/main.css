@@ -24,9 +24,9 @@ body {
   color: #f2f1ed;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-        "header header"
-        "logo logo"
-        "main main";
+          "header header"
+          "logo logo"
+          "main main";
 }
 
 header {
@@ -37,16 +37,15 @@ header {
 
 .logo {
   display: grid;
-  grid-area:logo;
+  grid-area: logo;
   margin: 2.5rem;
   width: 14rem;
   place-items: end;
   z-index: 1;
 }
 
-
 .pano {
-  /*grid-area: banner;*/
+  /* grid-area: banner; */
   padding: 1rem;
   grid-area: header;
   grid-column: 1/ -1;
