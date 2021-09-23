@@ -39,7 +39,8 @@ header {
   grid-area: 1fr 1fr;
   margin: 2.5rem;
   width: 14rem;
-  place-items: -2;
+  place-items: end;
+  z-index: 1;
 }
 
 
