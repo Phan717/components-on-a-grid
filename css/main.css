@@ -14,6 +14,7 @@ html {
 
 img {
   width: 100%;
+  display: block;
 }
 
 body {
@@ -32,6 +33,14 @@ header {
   color: #fff;
   padding: 1rem;
 }
+
+.logo {
+  display: grid;
+  grid-area: 1rem;
+  margin: 1rem;
+  width: 14rem;
+}
+
 
 .pano {
   grid-area: banner;
