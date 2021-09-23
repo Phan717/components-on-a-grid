@@ -26,7 +26,8 @@ body {
   grid-template-areas:
     "header header"
     "logo logo"
-    "main main";
+    "main main"
+  gap: 1rem;
 }
 
 header {
@@ -38,9 +39,9 @@ header {
 .logo {
   display: grid;
   grid-area: logo;
+  place-items: end;
   margin: 2.5rem;
   width: 14rem;
-  place-items: end;
   z-index: 1;
 }
 
