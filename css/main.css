@@ -33,6 +33,7 @@ header {
 }
 
 nav > ul {
+  position: absolute;
   display: flex;
   list-style: none;
   justify-content: end;
@@ -45,6 +46,13 @@ nav {
   grid-row: 1;
 }
 
+.pano {
+  position: relative;
+}
+
+.logo {
+  background-color: red;
+}
 
 
 
