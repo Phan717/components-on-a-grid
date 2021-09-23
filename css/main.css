@@ -46,8 +46,13 @@ nav {
   grid-row: 1;
 }
 
-.pano {
-  position: relative;
+figure:nth-of-type(1) {
+  grid-area: col1;
+}
+
+
+
+/*  position: relative;
 }
 
 .logo {
