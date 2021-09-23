@@ -24,9 +24,9 @@ body {
   color: #f2f1ed;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-        "header header"
-        "logo logo"
-        "main main";
+  "header header"
+  "logo logo"
+  "main main";
 }
 
 header {
