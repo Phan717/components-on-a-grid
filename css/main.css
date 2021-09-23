@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   color: #000;
-  background-color:
+  background-color: #f2f1ed;
 }
 
 *,
@@ -25,7 +25,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
         "banner banner";
-        "col1  col2";
+        "col1  col2"
 }
 
 header {
@@ -36,8 +36,8 @@ header {
 
 .logo {
   display: grid;
-  grid-area: 1rem;
-  margin: 1rem;
+  grid-area: 1fr;
+  margin: 2.5rem;
   width: 14rem;
 }
 
