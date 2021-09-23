@@ -36,7 +36,7 @@ header {
 
 .logo {
   display: grid;
-  grid-area: 1fr 1fr;
+  grid-area:logo;
   margin: 2.5rem;
   width: 14rem;
   place-items: end;
