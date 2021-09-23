@@ -32,6 +32,7 @@ header {
 
 .pano {
   grid-area: banner;
+  padding: 1rem;
 }
 
 nav > ul {
@@ -48,6 +49,13 @@ nav {
   grid-row: 1;
 }
 
-figure:nth-of-type(1) {
+ul a {
+  margin: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  font-family: Patua One;
+}
+
+/*figure:nth-of-type(1) {
   grid-area: col1;
 }
