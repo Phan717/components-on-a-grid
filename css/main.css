@@ -14,7 +14,7 @@ html {
 
 img {
   width: 100%;
-  display: block;
+  /*display: block;*/
 }
 
 body {
@@ -36,9 +36,10 @@ header {
 
 .logo {
   display: grid;
-  grid-area: 1fr;
+  grid-area: 1fr 1fr;
   margin: 2.5rem;
   width: 14rem;
+  place-items: -2;
 }
 
 
