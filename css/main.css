@@ -45,6 +45,7 @@ header {
 }
 
 .pano {
+  margin-top: 0;
   padding: 1rem;
   grid-area: banner;
   grid-column: 1/ -1;
