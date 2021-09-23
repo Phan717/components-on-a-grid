@@ -44,7 +44,7 @@ header {
 
 
 .pano {
-  grid-area: banner;
+  /*grid-area: banner;*/
   padding: 1rem;
   grid-area: header;
   grid-column: 1/ -1;
@@ -65,9 +65,10 @@ nav {
   grid-row: 1;
 }
 
-ul a {
+a {
   margin: 1rem;
   font-size: 2rem;
+  padding: 0;
   color: #fff;
   font-family: "Patua One", sans-serif;
 }
