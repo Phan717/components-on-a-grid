@@ -95,3 +95,13 @@ figure:nth-of-type(2) {
 figure img {
   margin-bottom: 1rem;
 }
+
+h2 {
+  color: #30658d;
+  margin: 0;
+  font-family: "Patua One", sans-serif;
+}
+
+p {
+  margin: 0;
+}
