@@ -2,7 +2,6 @@ html {
   line-height: 1.5;
   box-sizing: border-box;
   font-family: Georgia, serif;
-  color: #000;
   background-color: #f2f1ed;
 }
 
@@ -12,22 +11,19 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-  display: block;
-}
-
 body {
   margin: 0;
   padding: 1rem;
   display: grid;
-  color: #f2f1ed;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "header header"
-    "logo logo"
-    "main main"
+    "banner banner"
+    "col1 col2"
   gap: 1rem;
+}
+
+img {
+  width: 100%;
 }
 
 header {
@@ -37,12 +33,13 @@ header {
 }
 
 .logo {
-  display: grid;
-  place-items: top;
-  margin: 2.5rem;
   width: 14rem;
-  z-index: -1;
   grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  z-index: 1;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .pano {
@@ -55,12 +52,11 @@ header {
 }
 
 nav ul {
-  display: absolute;
   display: flex;
   list-style: none;
   justify-content: end;
-  margin: 1rem;
-  grid-gap: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -71,7 +67,7 @@ nav {
   margin-right: 2rem;
 }
 
-a {
+nav a {
   margin: 1rem;
   font-size: 2rem;
   padding: 0;
@@ -89,7 +85,10 @@ p {
   margin: 0;
   color: #000;
 }
+main {
+  display: contents;
+}
 
 figure {
-  flex-direction: row;
+  space-around: 1em;
 }
